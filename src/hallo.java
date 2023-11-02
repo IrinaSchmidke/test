@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class hallo {
 
+
+
   public static void main(String[] args) {
-    System.out.println("Hallo world");
+    Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    System.out.println(a + b);
   }
 
 }
