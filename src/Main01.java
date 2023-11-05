@@ -1,4 +1,5 @@
 public class Main01 {
+  //метод который будет обьединять массив цифр в одно число
 
   public class Main04 {
     // написать метод, который считает целую степень числа
@@ -22,13 +23,6 @@ public class Main01 {
         res *= base;
       }
       return res;
-    }
-
-    public static void main(String[] args) {
-      System.out.println(power(2, -3));
-      System.out.println("число из задонного массива");
-      System.out.println("число из задонного массива");
-      //комментарий
     }
   }
 
